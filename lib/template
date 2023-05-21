@@ -2,7 +2,7 @@
 git init -qqq
 git remote add origin https://github.com/mucan54/docker-magento-varnish
 git fetch origin -qqq
-git checkout origin/master -- compose
+git checkout origin/main -- compose
 mv compose/* ./
 mv compose/.gitignore ./
 mv compose/.vscode ./
