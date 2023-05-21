@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dfbcda8-e195-4bac-b7ca-861a87df5f02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/compose/config/nginx/default-varnish.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compose/config/varnish/default.vcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compose/env/varnish.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/compose.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose/compose.dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/onelinesetup" beforeDir="false" afterPath="$PROJECT_DIR$/lib/onelinesetup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/template" beforeDir="false" afterPath="$PROJECT_DIR$/lib/template" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +16,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="13307" />
+    <option name="totalTimeSeconds" value="13507" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -614,7 +612,7 @@
       <updated>1684406355898</updated>
       <workItem from="1684406358010" duration="799000" />
       <workItem from="1684513812800" duration="7619000" />
-      <workItem from="1684677071613" duration="12350000" />
+      <workItem from="1684677071613" duration="12548000" />
     </task>
     <servers />
   </component>

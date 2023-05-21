@@ -159,7 +159,7 @@ mkdir -p ~/Sites/magento
 cd $_
 
 # Download the Docker Compose template:
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/template | bash
+curl -s https://raw.githubusercontent.com/mucan54/docker-magento-varnish/master/lib/template | bash
 
 # Download the version of Magento you want to use with:
 bin/download 2.4.6 community
@@ -191,7 +191,7 @@ mkdir -p ~/Sites/magento
 cd $_
 
 # Download the Docker Compose template:
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/template | bash
+curl -s https://raw.githubusercontent.com/mucan54/docker-magento-varnish/master/lib/template | bash
 
 # Replace with existing source code of your existing Magento instance:
 cp -R ~/Sites/existing src
@@ -224,8 +224,8 @@ open https://magento.test
 
 ### Elasticsearch vs OpenSearch
 OpenSearch is set as the default search engine when setting up this project. Follow the instructions below if you want to use Elasticsearch instead:
-1. Comment out or remove the `opensearch` container in both the [`compose.yaml`](https://github.com/markshust/docker-magento/blob/master/compose/compose.yaml#L55-L66) and [`compose.healthcheck.yaml`](https://github.com/markshust/docker-magento/blob/master/compose/compose.healthcheck.yaml#L38-L43) files
-2. Uncomment the `elasticsearch` container in both the [`compose.yaml`](https://github.com/markshust/docker-magento/blob/master/compose/compose.yaml#L70-L81) and [`compose.healthcheck.yaml`](https://github.com/markshust/docker-magento/blob/master/compose/compose.healthcheck.yaml#L45-L50) files
+1. Comment out or remove the `opensearch` container in both the [`compose.yaml`](https://github.com/mucan54/docker-magento-varnish/blob/master/compose/compose.yaml#L55-L66) and [`compose.healthcheck.yaml`](https://github.com/mucan54/docker-magento-varnish/blob/master/compose/compose.healthcheck.yaml#L38-L43) files
+2. Uncomment the `elasticsearch` container in both the [`compose.yaml`](https://github.com/mucan54/docker-magento-varnish/blob/master/compose/compose.yaml#L70-L81) and [`compose.healthcheck.yaml`](https://github.com/mucan54/docker-magento-varnish/blob/master/compose/compose.healthcheck.yaml#L45-L50) files
 3. Update the `bin/setup-install` command to use the Elasticsearch ratther than OpenSearch. Change:
 
 ```
@@ -407,13 +407,13 @@ PhpMyAdmin is built into the `compose.dev.yaml` file. Simply open `http://localh
 
 Install and enable the PHP Debug extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug).
 
-Otherwise, this project now automatically sets up Xdebug support with VS Code. If you wish to set this up manually, please see the [`.vscode/launch.json`](https://github.com/markshust/docker-magento/blame/master/compose/.vscode/launch.json) file.
+Otherwise, this project now automatically sets up Xdebug support with VS Code. If you wish to set this up manually, please see the [`.vscode/launch.json`](https://github.com/mucan54/docker-magento-varnish/blame/master/compose/.vscode/launch.json) file.
 
 ### Xdebug & VS Code in a WSL2 environment
 
 Install and enable the PHP Debug extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug).
 
-Otherwise, this project now automatically sets up Xdebug support with VS Code. If you wish to set this up manually, please see the [`.vscode/launch.json`](https://github.com/markshust/docker-magento/blame/master/compose/.vscode/launch.json) file.
+Otherwise, this project now automatically sets up Xdebug support with VS Code. If you wish to set this up manually, please see the [`.vscode/launch.json`](https://github.com/mucan54/docker-magento-varnish/blame/master/compose/.vscode/launch.json) file.
 
 1. In VS Code, make sure that it's running in a WSL window, rather than in the default window.
 2. Install the [`PHP Debug`](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) extension on VS Code.
